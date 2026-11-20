@@ -34,8 +34,7 @@ pipeline {
         )
         string(
             name: 'VITE_ENROLL_API',
-            defaultValue: 'https://api.poojalabel.xyz
-            /api/enroll',
+            defaultValue: 'https://api.poojalabel.xyz/api/enroll',
             description: 'Enrollment API URL baked into the build'
         )
     }
